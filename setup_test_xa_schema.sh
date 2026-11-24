@@ -1,12 +1,11 @@
 #!/usr/bin/env bash
-# test_setup_xa_settle.sh
+# setup_test_xa_schema.sh
 # file distributed with mariadb_xa_settle
 # By Edward Stoever for MariaDB Support
 
 # REF 206295, 206801
 
-
-# Establish working directory and source pre_quick_review.sh
+# Establish working directory and load version info
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 source ${SCRIPT_DIR}/vsn.sh
 
